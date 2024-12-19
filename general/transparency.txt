@@ -1,0 +1,4 @@
+At first i wasnt entirely sure how to approach this challenge, since this whole lab revolves around finding the right certificate i found
+a website that can scan all certificates assosicated with a certain URL, here i found crt.sh, before i even grabbed the public key from the pem file,
+i was able to see that there was a certificate for thetransparencyflagishere.cryptohack.org so i knew this was the right one, using a curl command in my mac command line
+i was able to get the flag 
