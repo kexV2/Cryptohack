@@ -12,7 +12,7 @@ def decrypt(ciphertext, key):
         return None
 
 # Read the list of words from "words.txt"
-with open("words.txt", "r") as file:
+with open("SymCiphers\words.txt", "r") as file:
     words = [word.strip() for word in file]
 
 # Encrypted message
